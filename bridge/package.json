@@ -2,8 +2,13 @@
   "name": "brige",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "^3.9.5"
   },
   "peerDependencies": {
     "typescript": "^5"
