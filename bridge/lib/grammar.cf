@@ -1,0 +1,4 @@
+H1 . Block ::= "#" Text ;
+H2 . Block ::= "##" Text ;
+H3 . Block ::= "###" Text ;
+H4 . Block ::= "####" Text ;
